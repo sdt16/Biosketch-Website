@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Schuyler Thompson's Personal Website | <%= title %></title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <div id="header">
-  </div>
-  <div id="content">
-    <%= content %>
-  </div>
-  
-<%= yield %>
-
-</body>
+  <head>
+    <title>Schuyler Thompson's Personal Website | <%= @title %></title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 8]><%= stylesheet_link_tag 'ie.css', :media => 'screen, projection' %><![endif]-->
+                                                                                           </head>
+  <body>
+    <div id="wrap">
+    <div id="header">
+      <p>
+        <h1>schuyler thompson</h1>
+      </p>
+      <p>
+        <div id="links">
+          <ul id="navlist">
+            <li><a class="blue" href="home">Home</a></li>
+            <li><a class="blue" href="bio">Bio</a></li>
+            <li><a class="blue" href="resume">Resume</a></li>
+          </ul>
+      </p>
+      </div>
+      <div id="content">
+        <%= @content.html_safe %>
+      </div>
+      
+      <%= yield %>
+      </div>
+  </body>
 </html>
