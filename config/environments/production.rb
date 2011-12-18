@@ -43,7 +43,7 @@ Bio::Application.configure do
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
-  # config.assets.precompile += %w( search.js *.css)
+   config.assets.precompile += %w( search.js *.css)
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
@@ -57,4 +57,7 @@ Bio::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  # Don't fallback to assets pipeline if a precompiled asset is missed
+  config.assets.compile = true
 end
