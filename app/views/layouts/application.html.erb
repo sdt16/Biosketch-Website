@@ -9,24 +9,25 @@
                                                                                            </head>
   <body>
     <div id="wrap">
-    <div id="header">
-      <p>
-        <h1>schuyler thompson</h1>
-      </p>
-      <p>
-        <div id="links">
-          <ul id="navlist">
-            <li><a class="blue" href="home">Home</a></li>
-            <li><a class="blue" href="bio">Bio</a></li>
-            <li><a class="blue" href="resume">Resume</a></li>
-          </ul>
-      </p>
+      <div id="header">
+        <p>
+          <h1 class="topheading">schuyler thompson</h1>
+        </p>
+        <p>
+          <div id="links">
+            <ul id="navlist">
+              <li><a class="blue" href="home">Home</a></li>
+              <li><a class="blue" href="bio">Bio</a></li>
+              <li><a class="blue" href="resume">Resume</a></li>
+            </ul>
+          </div>
+        </p>
       </div>
       <div id="content">
         <%= @content.html_safe %>
       </div>
       
       <%= yield %>
-      </div>
+    </div>
   </body>
 </html>
