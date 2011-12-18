@@ -19,9 +19,6 @@
     style: solid;
     bottom-width: 4px;
   }
-  padding: {
-    bottom: 50px;
-  }
 
   h1 {
     font: {
@@ -39,11 +36,11 @@
     left: 12.5px;
     right: 12.5px;
   }
-  /* margin: { */
-  /*   left: auto; */
-  /*   right: auto; */
-  /* } */
-  //  width: 21em;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  width: 21em;
 }
 .blue { @include fancy-button(#2966a8); }
 
