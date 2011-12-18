@@ -1,6 +1,6 @@
 #source 'http://rubygems.org'
 
-#source :rubygems
+source :rubygems
 
 gem 'rails', '3.1.3'
 
