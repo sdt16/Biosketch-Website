@@ -10,6 +10,5 @@ $(document).ready(function(){
             }
         });
     })(jQuery);
-
+    $('#navlist').center();
 });
-$('#navlist').center();
