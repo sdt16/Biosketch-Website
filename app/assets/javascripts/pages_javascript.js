@@ -1,5 +1,5 @@
 
-$(window).ready(function(){
+$(window).load(function(){
     (function($){
         $.fn.extend({
             center: function () {
