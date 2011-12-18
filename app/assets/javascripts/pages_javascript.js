@@ -11,5 +11,5 @@ $(window).ready(function(){
         });
     })(jQuery);
 
-    $('#links').center();
+    $('#navlist').center();
 });
