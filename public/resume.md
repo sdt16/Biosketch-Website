@@ -17,10 +17,10 @@ _Software Development Engineer - Summer Intern_
 
 _Whispernet Team_
 
-* Write Hadoop jobs to analyze Kindle call data records from cell
+* Write [Hadoop](http://hadoop.apache.org/) jobs to analyze Kindle call data records from cell
   phone providers
 
-* Use Hibernate to parse output of Hadoop and insert records in Oracle
+* Use [Hibernate](http://www.hibernate.org/) to parse output of Hadoop and insert records in Oracle
   DB
   
 * Provide value to business intelligence unit though analysis of
@@ -38,7 +38,7 @@ _Whispernet Team_
 _Software Development Engineer - Coop_
 
 * Write unit tests to assure the highest quality of acquisition
-  software for new generation of PET scanners
+  software for new generation of [Positron Emission Tomography](http://en.wikipedia.org/wiki/Positron_emission_tomography) scanners
   
 * Build simulators to test software before acquisition hardware was
   ready
@@ -69,7 +69,7 @@ Haskell, Bash, HTML, and CSS
 
 #### Case Western Reserve University ####
 
-* Major: Computer Engineering
+* Major: (Computer Engineering)[http://engineering.case.edu/eecs/computer_engineering]
 
 * GPA: 3.2
 
@@ -79,7 +79,7 @@ Haskell, Bash, HTML, and CSS
 
 ### Activities ###
 
-* Undergraduate Student Government, former Vice President of Information Technology, current 
+* [Undergraduate Student Government](http://usg.case.edu/node/105), former Vice President of Information Technology, current 
 Engineering School representative
 
 * Former Member of Formula SAE Hybrid Racecar Team, Systems Engineer
@@ -87,4 +87,4 @@ Engineering School representative
   
 * Brother of Sigma Nu Fraternity
 
-* Hacker Society 
+* [Hacker Society](http://hacsoc.org/)
